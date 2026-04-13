@@ -39,7 +39,7 @@
 現代の忍具（IT）を使いこなし、無駄な濡れを避け、生存戦略を最大化せよ。
 
 詳細な解説（note）:
-【Survival DX】鉄砲雨を完全回避するシステム
+[【Survival DX】鉄砲雨を完全回避するシステム](https://note.com/masa_cloud/n/na23827707f83)
 
 ---🇺🇸 English---
 
@@ -94,4 +94,4 @@ Interval: Every 10 minutes
 We live in a survival environment where unpredictable storms occur frequently. As modern Shinobi (Ninjas), we must master IT "tools" to avoid unnecessary risks and stay aware of our surroundings at all times.
 
 Detailed Article (Japanese):
-How to avoid sudden rainstorms using GAS & Yahoo API(https://note.com/masa_cloud/n/na23827707f83)
+[How to avoid sudden rainstorms using GAS & Yahoo API](https://note.com/masa_cloud/n/na23827707f83)
