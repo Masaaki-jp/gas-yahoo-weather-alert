@@ -76,12 +76,12 @@ Paste the code from `YahooWeatherAPI.js` into your Google Apps Script editor.
 
 ### 3. Configuration
 Set your environment variables in the script:
-```javascript```
+```javascript
 const YAHOO_APP_ID = 'YOUR_CLIENT_ID';
 const LATITUDE     = 35.586; // Example: Kawasaki, Japan
 const LONGITUDE    = 139.632;
 const CALENDAR_ID  = 'YOUR_CALENDAR_ID'; 
-
+```
 ### 4. Set Trigger
 Set a trigger for the checkYahooRainAlert function:
 
