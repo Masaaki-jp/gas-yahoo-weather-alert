@@ -31,3 +31,12 @@
    const LATITUDE     = 35.586; // 緯度
    const LONGITUDE    = 139.632; // 経度
    const CALENDAR_ID  = 'YOUR_CALENDAR_ID';
+
+4. **トリガー**: checkYahooRainAlert を 「10分おき」 に設定。
+
+🥷 開発の背景
+現代は予測不能な雨が多発するサバイバル環境。我らは忍。
+現代の忍具（IT）を使いこなし、無駄な濡れを避け、生存戦略を最大化せよ。
+
+詳細な解説（note）:
+【Survival DX】鉄砲雨を完全回避するシステム
