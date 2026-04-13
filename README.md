@@ -40,3 +40,57 @@
 
 詳細な解説（note）:
 【Survival DX】鉄砲雨を完全回避するシステム
+
+# 🚨 gas-yahoo-weather-alert
+
+> **A Google Apps Script (GAS) tool that detects "Guerrilla Rainstorms" in real-time using Yahoo! Japan Weather API and auto-registers alerts on Google Calendar.**
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Survival DX](https://img.shields.io/badge/Survival-DX-blue.svg)](#philosophy)
+
+---
+
+## 🌊 Overview
+In an era of unpredictable weather, this tool real-time monitors "Guerrilla Rainstorms" (sudden heavy rain) and injects alert events into your Google Calendar exactly when you need them. 
+
+This is a practical tool for **"Survival DX"**—achieving high-level IT results with minimal resources to enhance daily survival strategies.
+
+### 🛠 Key Features
+
+| Feature | Description |
+| :--- | :--- |
+| **Hyper-Local Forecast** | Uses Yahoo! Japan Nowcast to fetch precipitation levels at 10-min intervals. |
+| **Calendar Sync** | Automatically adds "🚨 Rain Alert" events to your Google Calendar. |
+| **Auto-Cleanup** | Automatically detects and deletes alerts if the forecast changes to clear skies. |
+| **Zero Cost** | Runs entirely on Google Apps Script (Serverless) with no maintenance fees. |
+
+---
+
+## 🚀 Quick Start
+
+### 1. Obtain API Key
+Get your "Client ID" from the [Yahoo! Japan Developer Network](https://developer.yahoo.co.jp/). (Select "Do not use ID linkage" for easy setup).
+
+### 2. Implementation
+Paste the code from `YahooWeatherAPI.js` into your Google Apps Script editor.
+
+### 3. Configuration
+Set your environment variables in the script:
+```javascript
+const YAHOO_APP_ID = 'YOUR_CLIENT_ID';
+const LATITUDE     = 35.586; // Example: Kawasaki, Japan
+const LONGITUDE    = 139.632;
+const CALENDAR_ID  = 'YOUR_CALENDAR_ID';
+
+### 4. Set Trigger
+Set a trigger for the checkYahooRainAlert function:
+
+Type: Time-driven / Minute timer
+
+Interval: Every 10 minutes
+
+🥷 Philosophy: Survival DX
+We live in a survival environment where unpredictable storms occur frequently. As modern Shinobi (Ninjas), we must master IT "tools" to avoid unnecessary risks and stay aware of our surroundings at all times.
+
+Detailed Article (Japanese):
+How to avoid sudden rainstorms using GAS & Yahoo API
