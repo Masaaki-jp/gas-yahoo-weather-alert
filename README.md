@@ -41,14 +41,15 @@
 詳細な解説（note）:
 【Survival DX】鉄砲雨を完全回避するシステム
 
+---🇺🇸 English---
+
+
 # 🚨 gas-yahoo-weather-alert
 
 > **A Google Apps Script (GAS) tool that detects "Guerrilla Rainstorms" in real-time using Yahoo! Japan Weather API and auto-registers alerts on Google Calendar.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Survival DX](https://img.shields.io/badge/Survival-DX-blue.svg)](#philosophy)
-
----🇺🇸 English---
 
 ## 🌊 Overview
 In an era of unpredictable weather, this tool real-time monitors "Guerrilla Rainstorms" (sudden heavy rain) and injects alert events into your Google Calendar exactly when you need them. 
