@@ -94,4 +94,4 @@ Interval: Every 10 minutes
 We live in a survival environment where unpredictable storms occur frequently. As modern Shinobi (Ninjas), we must master IT "tools" to avoid unnecessary risks and stay aware of our surroundings at all times.
 
 Detailed Article (Japanese):
-How to avoid sudden rainstorms using GAS & Yahoo API
+How to avoid sudden rainstorms using GAS & Yahoo API(https://note.com/masa_cloud/n/na23827707f83)
