@@ -9,7 +9,9 @@
 
 ## 🇯🇵 日本語 (Japanese)
 
-<img src="https://lh3.googleusercontent.com/notebooklm/AKXwDQEQDbDskoXNsCiH2PtJpcCpdizzmAdO1FbAIlXyNbCNslPfHYOtI3NneeQIXdGfz9MLU-DDKtu3lFJS7gxd4n4zZ69WQJc8Xoz1d49WCGdMla7dpN-TOiTbI88kc1xwPDf7UxQhTc7FidWdILW1I_-pnd6OuNo=w2752-d-h1536-mp2?authuser=0" alt="気象APIとスクリプトを活用し、特定地点の降雨予報をウェブカレンダーに自動通知するシステムの仕組みを解説した図解。"/>
+
+![システム図解](./yahooAPI_to_Gcalendar.png)
+
 
 ### 🌊 概要
 「あと数分で降り始める」という**鉄砲雨（ゲリラ豪雨）**をリアルタイムで検知し、Googleカレンダーにアラートを自動でねじ込みます。
